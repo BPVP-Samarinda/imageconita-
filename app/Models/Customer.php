@@ -12,6 +12,7 @@ class Customer extends Model
     protected $table='kategori';
     protected $fillable = [
         'nama',
+        'jk',
         'alamat',
         'email',
         'hp',

@@ -24,6 +24,7 @@ class CustomerResource extends Resource
         return $form
         ->schema([
             Forms\Components\TextInput::make('nama'),
+            Forms\Components\TextInput::make('jk'),
             Forms\Components\Textarea::make('alamat'),
             Forms\Components\TextInput::make('email'),
             Forms\Components\TextInput::make('hp'),
@@ -37,6 +38,7 @@ class CustomerResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('nama'),
+                Tables\Columns\TextColumn::make('jk'),
                 Tables\Columns\TextColumn::make('alamat'),
                 Tables\Columns\TextColumn::make('email'),
                 Tables\Columns\ImageColumn::make('hp'),

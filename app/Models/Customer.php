@@ -8,17 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Customer extends Model
 {
     use HasFactory;
-    $table='customergit';
-    $fillable = [
-        'nama',
-        'jk',
-        'alamat',
-        'harga',
-        'harga',
-        'foto',
-    ];
+    //
+
     public function customer()
     {
-        return $this->belongsTo(kategori::class);
+        // return $this->belongsTo(kategori::class);
     }
 }

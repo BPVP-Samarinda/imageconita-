@@ -41,8 +41,8 @@ class CustomerResource extends Resource
                 Tables\Columns\TextColumn::make('jk'),
                 Tables\Columns\TextColumn::make('alamat'),
                 Tables\Columns\TextColumn::make('email'),
-                Tables\Columns\ImageColumn::make('hp'),
-                Tables\Columns\TextColumn::make('foto'),
+                Tables\Columns\TextColumn::make('hp'),
+                Tables\Columns\ImageColumn::make('foto'),
               
             ])
             ->filters([

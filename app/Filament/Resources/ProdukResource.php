@@ -26,7 +26,7 @@ class ProdukResource extends Resource
                 Forms\Components\TextInput::make('nama'),
                 Forms\Components\Textarea::make('deskripsi'),
                 Forms\Components\FileUpload::make('gambar'),
-                Forms\Components\select::make('kategori_id')->relationship('kategori','nama'),
+                Forms\Components\Select::make('kategori_id')->relationship('kategori','nama'),
                 Forms\Components\TextInput::make('harga'),
                 Forms\Components\TextInput::make('stok'),
             ]);
